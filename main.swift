@@ -58,7 +58,7 @@ Number of steps taken today: The number of steps that a user has taken today
 Goal number of steps: The user's goal for number of steps to take each day
 Average heart rate: The user's average heart rate over the last 24 hours
 */
-let name = "Aaron"
+let userName = "Aaron"
 print("I chose let because Aaron will always be my name")
 var age = 16
 print("I chose var because my age will change")
@@ -87,13 +87,11 @@ print("It did not work because i was trying to assign a whole number to a double
 var hasMetStepGoal = false
 
 // When you declared a constant for goal number of steps and a variable for current step count, you likely assigned each a value in the thousands. This can be difficult to read. Redeclare this constant and variable and, when assigning each a value in the thousands, format the number so that it is more readable.
-let numStepsGoal = 25
-var numStepsToday = 17
+
 // Declare a variable called name of type String, but do not give it a value. Print name to the console. Does the code compile? Remove any code that will not compile.
-
-
+var name: String
+print(name)
 // Now assign a value to name, and print it to the console.
-
 
 // Declare a variable called distanceTraveled and set it to 0. Do not give it an explicit type.
 
@@ -105,5 +103,5 @@ var numStepsToday = 17
 
 
 // Imagine that partway through the day a user has taken 3,467 steps out of the 10,000 step goal. This means he/she is 34.67% of the way to his/her goal. Assign 34.67 to percentCompleted. Does the code compile? Go back and explicity assign a type to percentCompleted that will allow the code to compile.
-
+ 
 
