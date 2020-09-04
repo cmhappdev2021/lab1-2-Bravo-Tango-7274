@@ -90,15 +90,15 @@ var hasMetStepGoal = false
 
 // Declare a variable called name of type String, but do not give it a value. Print name to the console. Does the code compile? Remove any code that will not compile.
 var name: String
-print(name)
 // Now assign a value to name, and print it to the console.
-
+name = "Aaron Ritch"
+print(name)
 // Declare a variable called distanceTraveled and set it to 0. Do not give it an explicit type.
-
+var distanceTraveled: Double = 0
 
 // Now assign a value of 54.3 to distanceTraveled. Does the code compile? Go back and set an explicit type on distanceTraveled so the code will compile.
-
-
+distanceTraveled = 54.3
+print(distanceTraveled)
 // You decide that your fitness tracking app should show the user what percentage of his/her goal has been achieved so far today. Declare a variable called percentCompleted and set it to 0. Do not explicity assign it a type.
 
 
